@@ -227,6 +227,10 @@ a {
 
 /* OUR COLLECTION */
 
+.our-collection {
+	margin-bottom: 20px;
+}
+
 .our-collection__container {
 	position: relative;
 	background-image: url(../img/orqa\ fon.png);
@@ -313,4 +317,65 @@ a {
 	font-size: 22px;
 	line-height: 1.5;
 	font-weight: 400;
+}
+
+/* INDEX_COLECTION */
+.index-colaction__ineer {
+	position: relative;
+	background-color: var(--darkgold-bg);
+	background-image: url(../img/orqa\ fon\ new.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto 703px;
+	padding-bottom: 420px;
+}
+
+.index-colaction__info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 518px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 80px;
+	color: var(--white-color);
+}
+
+.index-colaction__list {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin-left: -20px;
+}
+
+.index-colaction__item:nth-child(1) {
+	position: relative;
+}
+
+.index-colaction__item-logo {
+	position: absolute;
+	left: -64px;
+	top: -68px;
+}
+
+.index-colaction__item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.index-colaction__img {
+	width: 433px;
+	height: 500px;
+	object-fit: cover;
+	margin-bottom: 28px;
+}
+
+.index-colaction__item-title {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 10px;
 }
