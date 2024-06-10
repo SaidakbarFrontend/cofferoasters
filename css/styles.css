@@ -320,6 +320,7 @@ a {
 }
 
 /* INDEX_COLECTION */
+
 .index-colaction__ineer {
 	position: relative;
 	background-color: var(--darkgold-bg);
@@ -378,4 +379,101 @@ a {
 	font-size: 30px;
 	line-height: 1.2;
 	margin-bottom: 10px;
+}
+
+.how-it-works {
+	margin-top: 420px;
+}
+
+.how-it-works__ineer {
+	position: relative;
+	background-image: url(../img/how-it\ works\ gren.jpg);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.how-it-works__img {
+	position: absolute;
+	right: 68px;
+	top: 41px;
+}
+
+.how-it-works__title {
+	text-align: center;
+	font-weight: 700;
+	color: var(--white-color);
+	font-size: 50px;
+	line-height: 1.2;
+	margin-bottom: 80px;
+}
+
+.how-it-works__kvadrad-inner {
+	width: 60px;
+	height: 60px;
+	background-color: var(--white-color);
+	border: 4px solid var(--darkgold-bg);
+	padding-top: 28px;
+}
+
+.how-it-works__kvadrad {
+	max-width: 966px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-image: url(../img/chiziqlar.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+
+.how-it-works__list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 60px;
+}
+
+.how-it-works__item {
+	background-color: var(--white-color);
+	padding: 20px 20px 40px 20px;
+	color: var(--tetx-color);
+}
+
+.how-it-works__item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.how-it-works__item-number {
+	font-weight: 400;
+	font-size: 60px;
+	text-align: right;
+	line-height: 1.2;
+	margin-bottom: 45px;
+}
+
+.how-it-works__item-info {
+	max-width: 385px;
+	width: 100%;
+}
+
+.how-it-works__item-title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+.how-it-works__btn-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.how-it-works__btn {
+	background-color: var(--darkgold-bg);
 }
