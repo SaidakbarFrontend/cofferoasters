@@ -6,6 +6,7 @@
 	--gold-bg: #f3d7b7;
 	--darkgold-bg: #c99b67;
 	--light-bg: #f8f8f2;
+	--crete-plan-color: #555555;
 }
 
 @font-face {
@@ -583,4 +584,108 @@ a {
 	position: absolute;
 	right: 30px;
 	top: -90px;
+}
+/* CRETE PLAN */
+.crete-plan {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.crete-plan__container {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	background-image: url(../img/orqa\ fon.png);
+	background-position: center;
+	padding-left: 30px;
+	padding-right: 144px;
+}
+
+.crete-plan__list {
+	list-style: none;
+}
+
+.crete-plan__item {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1.2;
+	color: var(--crete-plan-color);
+}
+
+.crete-plan__item:not(:last-child) {
+	margin-bottom: 35px;
+}
+
+.crete-plan__item:nth-child(1) {
+	padding-bottom: 5px;
+	color: var(--black-color);
+	border-bottom: 3px dashed var(--darkgold-bg);
+}
+
+.crete-plan__info {
+	/* display: flex; */
+	align-items: center;
+}
+
+.crete-plan__title {
+	font-weight: 700;
+	font-size: 40px;
+	color: var(--black-color);
+	margin-right: 44px;
+}
+
+.crete-plan__btn {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.crete-plan__lists {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+
+.crete-plan__itmes {
+	max-width: 206px;
+	width: 100%;
+	padding: 30px 16px 80px;
+	background-color: rgba(10, 119, 95, 0.2);
+	color: var(--tetx-color);
+}
+
+.crete-plan__itmes:nth-child(1) {
+	background-color: var(--green-bg);
+	opacity: 1;
+	color: var(--white-color);
+}
+
+.crete-plan-itmes__title {
+	font-weight: 500;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.crete-plan__inner {
+	padding: 40px 20px;
+	margin-top: 100px;
+	background-color: var(--darkgold-bg);
+	color: var(--white-color);
+	max-width: 660px;
+}
+
+.crete-plan__inner-title {
+	font-size: 16px;
+	margin-bottom: 14px;
+}
+
+.crete-plan__inner-tetx {
+	font-size: 24px;
+}
+
+.crete-plan__inner-tetx span {
+	color: var(--black-color);
 }
